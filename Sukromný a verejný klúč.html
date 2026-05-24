@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <title> Sukromný a verejný klúč </title>
+<style>  table,th,td{border: 1px solid black; border-collapse:collapse;}
+</style>
+</head>
+<body style="background-color:rgb(115, 174, 250)">
+<h1 style="text-align:center;strong"> Sukromný a verejný klúč </h1>
+
+<br> Asymetrické šifrovanie je oblasť kryptografických systémov, ktoré používajú páry súvislých kľúčov. Každý kľúčový pár pozostáva z verejného kľúča a príslušného privátneho kľúča. Páry sú generované kryptografickým algoritmom založeným na matematických problémoch nazývaných jednosmerné funkcie. Zabezpečenie kryptografie verejného kľúča závisí na bezpečnej úschove privátneho kľúča, verejný kľúč môže byť verejne distribuovaný a zabezpečenie nebude narušené.V šifrovacom systéme verejného kľúča vie ktokoľvek s verejným kľúčom zašifrovať správu, čím sa získa zašifrovaný text, ale iba tí, ktorí majú zodpovedajúci privátny kľúč dokážu odšifrovať zašifrovaný text aby získali pôvodnú správu.</br>
+
+<br><strong>Sukromný klúč </strong>= Je tajný kryptografický kód, ktorý vlastníte iba vy. Slúži na vytvorenie vášho digitálneho podpisu.</br>
+<br><strong>Verejný klúč </strong>= Je kryptografický kód odvodený z vášho súkromného kľúča. Slúži ostatným ľuďom na overenie vášho digitálneho podpisu. </br>
+<br>
+
+<table style ="width:50%;">
+
+ <tr>    <th> Vlastnosť</th>
+          <th> Sukromný klúč</th>
+          <th> Verejný klúč</th>
+</tr> 
+<tr>     <td> Viditeľnosť</td>
+           <td> Musi sa udržiavať v tajnosti</td>
+            <td>Môže sa zdielať verejne </td>
+</tr>
+ <tr>     <td> účel</td>
+           <td> Používa sa na dešifrovanie správ a vytváranie vášho digitálneho podpisu.</td>
+            <td> Používa sa na šifrovanie správ pre vás a overovanie vášho digitálneho podpisu.</td>
+</tr>
+
+ <tr>     <td> Vygenerovanie</td>
+           <td> Nahodne vygenerovaní</td>
+            <td> Je matematicky odvodený zo súkromného kľúča.</td>
+</tr>
+ <tr>     <td> Prístup</td>
+           <td> Poskytuje plnú kontrolu nad vašou digitálnou identitou a podpisom.</td>
+            <td> Umožňuje komukoľvek poslať vám tajnú správu alebo overiť vašu identitu.</td>
+</tr>
+ <tr>     <td>Uskladnenie </td>
+           <td>Ukladá sa bezpečne (napr. na čipe občianskeho preukazu alebo v šifrovanom kľúči). </td>
+            <td> Je verejne dostupné v registroch alebo priložené k odoslaným správam.</td>
+</tr>
+<br>
+
+<div style="text-align:right;">
+<a href = "index.html"> Elektrický podpis</a>
+
+</div>

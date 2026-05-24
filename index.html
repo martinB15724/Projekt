@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <title> Elektronický podpis </title>
+</head>
+<body style="background-color:rgb(115, 174, 250)">
+ <h1 style="text-align:center;strong"> Elektronický podpis </h1>
+<br> Je to elektronický ekvivalent vlastnoručného podpisu. Ide o údaj pripojený k elektronickému dokumentu, ktorý identifikuje podpisujúcu osobu a potvrdzuje integritu dokumentu.</br>
+
+Hlavným účelom elektronických podpisov je poskytnúť  rovnaké právne postavenie ako tradičné papierové dokumenty s vlastnoručným podpisom. Označujú súhlas strán s právne záväznými zmluvami a dokumentmi. </br>
+
+<br><strong>Platnosť elektronického podpisu</strong>: Aby bol elektronický podpis platný musí splňať určité podmienky.</br>
+
+<ul style="list-style-type:square;">
+
+<li><strong>Autenticita </strong>= Elektronický podpis musí jednoznačne identifikovať osobu, ktorá dokument podpísala. To znamená, že podpis musí byť viazaný na konkrétneho podpisujúceho a byť prepojený s jeho osobou spôsobom, ktorý nie je možné sfalšovať.</li>
+
+<li><strong>Integrita </strong>= Dokument, ktorý bol podpísaný elektronicky, nesmie byť po podpise akýmkoľvek spôsobom upravený. Ak by došlo k zmene obsahu, elektronický podpis by prestal byť platný, pretože by už nemohol zaručiť pôvodnosť dokumentu. </li>
+
+<li><strong>Neodmietiteľnosť </strong>= Elektronický podpis musí byť vytvorený spôsobom, ktorý zabráni podpisujúcemu neskôr poprieť svoju účasť na podpise dokumentu. To je možné vďaka technológii, ktorá umožňuje spojiť podpisujúceho s jeho súkromným kľúčom, používaným pri vytváraní podpisu. </li>
+
+<li><strong>Certifikácia </strong>= Na zaručenie dôveryhodnosti a právnej záväznosti podpisu je pri zaručenom a kvalifikovanom elektronickom podpise potrebné, aby bol podpis vytvorený pomocou certifikátu od <pKvalifikovaného poskytovateľa dôveryhodných služieb.</li>
+</ul>
+
+<br> <strong> Ako funguje elektrický podpis = </strong>
+Najprv digitálne podpísanie dokumentu vyžaduje, aby poskytovateľ digitálneho podpisu vydal súkromný kľúč, ktorý je priamo spojený s osobou podpisujúcou dokument a samotným dokumentom. Následne pre zaistenie správnej bezpečnosti, sa súkromný kľúč používa na zašifrovanie hash údajov - vygenerovaného reťazca čísel spojeného s dokumentom. Súkromný kľúč môže používať len osoba podpisujúca dokument. Na overenie, či podpis nebol po podpísaní pozmenený, používajú overovatelia druhú sadu kľúčov vydaných v súlade s PKI - verejné kľúče.  Verejné kľúče dešifrujú digitálne podpísaný dokument a v podstate kontrolujú, či sa jedinečné reťazce čísel (hash kódy) dokumentu zhodujú.  Ak nie, podpis na dokumente sa považuje za neplatný. Keďže technológia PKI generuje jedinečné kódy pre každý podpis, ktoré možno bezpečne overiť, každy kód je jedinečným pre  podpisujúceho.</br>
+<br>
+<a href = "Sukromný a verejný klúč.html"> Sukromný a verejný klúč </a>
+<br>
+<a href = "Firewall.html"> Firewall </a>
+<br>
+<a href="Zdroje.html" style="color: green;">Zdroje</a>
+</br>
+
+
+
+<div style="text-align: center;">
+<img src="Digital_Signature_diagram_sk.svg.png" alt="" style="width: 45%;">
+</div>
+
